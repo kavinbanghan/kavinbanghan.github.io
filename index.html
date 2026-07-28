@@ -1,14 +1,167 @@
-Welcome! This website contains support information and legal documents for my Android applications.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Corner - Android Apps</title>
 
-Applications
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial,Helvetica,sans-serif;
+        }
 
-📄 PdfUp
-PDF utility for viewing, merging, compressing, converting, and managing PDF documents.
+        body{
+            background:#f5f7fb;
+            color:#333;
+        }
 
-• Privacy Policy
-• Terms & Conditions
-• Support
+        header{
+            background:#2563eb;
+            color:white;
+            padding:50px 20px;
+            text-align:center;
+        }
 
-Contact
+        header h1{
+            font-size:42px;
+            margin-bottom:10px;
+        }
 
-Email: anghananjali@gmail.com
+        header p{
+            font-size:18px;
+            opacity:.9;
+        }
+
+        .container{
+            max-width:1000px;
+            margin:auto;
+            padding:40px 20px;
+        }
+
+        .card{
+            background:white;
+            border-radius:12px;
+            padding:25px;
+            margin-bottom:25px;
+            box-shadow:0 5px 15px rgba(0,0,0,.08);
+        }
+
+        h2{
+            margin-bottom:15px;
+            color:#2563eb;
+        }
+
+        .app{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            flex-wrap:wrap;
+            gap:15px;
+        }
+
+        .btn{
+            text-decoration:none;
+            background:#2563eb;
+            color:white;
+            padding:10px 18px;
+            border-radius:6px;
+        }
+
+        ul{
+            padding-left:20px;
+            line-height:1.8;
+        }
+
+        footer{
+            text-align:center;
+            padding:25px;
+            color:#777;
+            font-size:14px;
+        }
+
+        @media(max-width:700px){
+            header h1{
+                font-size:30px;
+            }
+
+            .app{
+                flex-direction:column;
+                align-items:flex-start;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Creative Corner</h1>
+    <p>Android Applications & Support</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Welcome</h2>
+
+        <p>
+            This website provides support information, legal documents,
+            and contact details for Android applications developed by
+            Creative Corner.
+        </p>
+    </div>
+
+    <div class="card">
+
+        <h2>Applications</h2>
+
+        <div class="app">
+
+            <div>
+                <h3>📄 PdfUp</h3>
+
+                <p>
+                    PDF utility for viewing, merging, compressing,
+                    converting and managing PDF documents.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Legal</h2>
+
+        <ul>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
+        </ul>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Support</h2>
+
+        <p>
+            Email:
+            <a href="mailto:anghananjali@gmail.com">
+                anghananjali@gmail.com
+            </a>
+        </p>
+
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Creative Corner. All Rights Reserved.
+</footer>
+
+</body>
+</html>
